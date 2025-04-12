@@ -1,0 +1,24 @@
+<project> xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>git.utfpr.FPOO</groupId>
+  <artifactId>semaphore</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Projeto Semaforo</name>
+  
+  <properties>
+  <maven.compiler.target>17</maven.compiler.target>
+  <marven.compiler.source>17</marven.compiler.source>
+  </properties>
+  
+  <dependecies>
+	<dependency>
+	    <groupId>org.junit.jupiter</groupId>
+	    <artifactId>junit-jupiter-api</artifactId>
+	    <version>5.13.0-M2</version>
+	    <scope>test</scope>
+	</dependency>
+  </dependecies>
+ 
+</project>
+
+	

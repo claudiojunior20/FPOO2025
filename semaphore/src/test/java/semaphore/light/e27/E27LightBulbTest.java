@@ -1,0 +1,24 @@
+package semaphore.light.e27;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import semaphore.light.Light;
+
+public class E27LightBulbTest {
+
+	@Test
+	public void shouldTurnOn() {
+		//given
+		Light light = new E27LightBulb();
+		
+		//do action
+		light.turnOff();
+		light.turnOn();
+		
+		//check
+		assertTrue(light.isOn());
+	}
+
+}
