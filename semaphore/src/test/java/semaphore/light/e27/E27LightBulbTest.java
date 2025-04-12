@@ -1,8 +1,11 @@
 package semaphore.light.e27;
 
-import static org.junit.Assert.*;
 
-import org.junit.Test;
+
+
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import org.junit.jupiter.api.Test;
 
 import semaphore.light.Light;
 
