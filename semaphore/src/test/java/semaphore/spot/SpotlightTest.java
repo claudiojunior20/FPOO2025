@@ -20,5 +20,6 @@ class SpotlightTest {
 		assertTrue(light.isOn());
 		assertTrue(spot.isOn());
 	}
+	aaaaaaaaaaaa
 
 }
